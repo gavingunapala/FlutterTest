@@ -18,10 +18,14 @@ class Home extends StatelessWidget {
       ),
 
 
-      body: Center(
-        child:Image(
-        image: NetworkImage('https://images.unsplash.com/photo-1575881875475-31023242e3f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80'),
-        ),
+      body: Container(
+        padding: EdgeInsets.
+        all(20.0),
+        //symmetric(horizontal: 50.0 ,vertical: 30.0),
+        //fromLTRB(10, 10, 10, 10),
+        margin: EdgeInsets.all(50.0),
+        color: Colors.cyan,
+        child: Text('hello friends !!!!!'),
       ),
 
 
